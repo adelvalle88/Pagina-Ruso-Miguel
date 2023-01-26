@@ -1,0 +1,67 @@
+
+body{
+    
+}
+
+#rusito2{
+    width: 100%; 
+}
+
+.descripcion{
+    background: rgb(246, 216, 176);
+    padding: 30px;
+}
+
+h1{
+    text-align: center;
+    background: rgb(246, 216, 176);
+    padding: 15px;
+    border: 5px solid;
+}
+p{ 
+    text-align: center;
+    
+     }
+em{
+    color: rgb(86, 59, 1)
+}
+strong{
+    color: rgb(200, 136, 8)
+}
+#rrss{
+    font-size: 32px
+}
+.datosExtra{
+    background: white;
+    padding: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 32px;
+}
+.items{
+    font-style: italic;
+}
+ul{
+    font-size: 25px;
+    display:inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 30%;
+
+}
+.rusologo{
+    
+}
+footer{
+    text-align: center;
+    background: url(fondopaws.png);
+    background-position-x: 200px;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
+.copyright{
+    font-size: 20px;
+    font-weight: bold;
+    margin:20px;
+}

@@ -1,0 +1,256 @@
+body{
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+header{
+    background-color: rgb(242, 206, 159);
+    padding: 5px 0px;
+}
+.caja{
+    width: 940px;
+    object-position: 0px;
+}
+
+nav{
+    position:absolute;
+    top: 125px;
+    right: 0px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 20px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 45%;
+    vertical-align: top;
+    margin: 0 1%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 8px solid brown;
+    border-radius: 5%;
+
+}
+.productos li:hover{
+   border-color:rgb(246, 216, 176);
+   text-decoration: underline;
+}
+.productos li:active{
+    border-color: orange;
+}
+.productos h2{
+    font-size: 26px;
+    font-weight: bold;
+}
+.productos li:hover h2{
+    font-size: 26px;
+}
+
+.guinho{
+    font-size: 18px;
+    font-weight: bold;
+}
+.calendario{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+nav a:hover{
+    color:rgb(125, 37, 2);
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background: url(fondopaws.png);
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+}
+.copyright{
+    font-size: 16px;
+    font-weight: bold;
+    margin:20px;
+}
+
+p{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+form{
+    margin: 40px 0;
+}
+form label, form legend{
+    display: block;
+    font-size: 20px;
+    margin:0 0 10px;
+}
+
+.input-padron{
+    display: block;
+    margin:0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.checkbox{
+    margin: 40px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(246, 216, 176);
+    background:rgb(125, 37, 2);
+    border: none;
+    border-radius: 30px;
+    transition: 1s all;
+    cursor:pointer;
+}
+.enviar:hover{
+    background: rgb(217, 160, 102);
+    color:black;
+    transform: scale(0.75);
+}
+table{
+    margin: 40px 40px;
+}
+thead{
+    background-color: rgb(246, 216, 176);
+    color:rgb(125, 37, 2);
+    font-weight: bold;
+    font-size: 20px;
+}
+td, th{
+    border: 3px double black;
+    padding: 20px;
+    font-size: 20px;
+}
+/*CSS para rusomiguel*/
+
+.rusito2{
+    width: 100%;
+}
+
+.descripcion{
+    padding: 3em 0;
+    background: rgb(242, 206, 159);
+    width: 100%;
+    margin: 0 auto;
+}
+.titulo-ppal{
+    text-align: center;
+    font-size: 3em;
+    margin: 20px 0 1em;
+    clear:left;
+    text-shadow: 2px 2px 10px rgb(196, 106, 4);
+}
+.descripcion p{
+    margin: 0 0 1em;
+    font-size: 16px;
+    width: 940px;
+    margin: 0 auto;
+    line-height: 2.5;
+}
+.descripcion strong{
+    font-weight: bold;
+}
+.descripcion em{
+    font-style: italic;
+}
+.aesthetic{
+    width: 350px;
+    float: left;
+    margin: 0 20px 20px 100px;
+    align-self: center;
+}
+
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(rgb(242, 206, 159),rgb(242, 224, 202));
+}
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 16px;
+}
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+    
+}
+.datosExtra{
+    padding: 3em 0;
+    background: linear-gradient(rgb(242, 224, 202), white);
+}
+
+.datExtra{
+    width: 640px;
+    margin: 0 auto;    
+    display: inline-block;
+    text-align: justify center;
+}
+.contExtra{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 18px;
+   
+}
+.items{
+    font-size: 18px;
+    line-height: 2.5;
+    text-align: center;
+}
+.items:before{
+    content: "🐾";
+}
+.items:first-child{
+    font-weight: bold;
+}
+.imgExtra{
+    width: 60%;
+}
+
+/*.imgExtra:hover{
+    opacity: 0.3;
+    transition: 1ms;
+}*/
+
+.short{
+    width: 367px;
+    margin: 3em auto;
+}
+
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .caja, .principal{
+        width: auto;
+    }
+    .contExtra, .imgExtra{
+        width: 100%;
+    }
+
+}

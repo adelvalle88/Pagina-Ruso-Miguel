@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset = "UTF-8">
+        <title>Sígueme en Redes Sociales</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img src="logo.png" alt="Ruso Miguel, el gato"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="rusomiguel.html">HOME</a></li>
+                        <li><a href="michiproductos.html">MICHI CONSEJOS</a></li>
+                        <li><a href="https://www.facebook.com/photo/?fbid=110023511974781&set=pb.100089013972047.-2207520000.">MICHI CALENDARIO</a></li>
+                        <li><a href="https://www.facebook.com/ruso.miguel.elgato/">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <p style="text-align: center";>MUESTRAME A TU MICHI!!!</p>
+            <form>
+                <label for="tunombre">Nombre de tu michi:</label>
+                <input type="text" id="tunombre" class="input-padron" required>
+                
+                <label for="tucorreo">Tu correo:</label>
+                <input type="email" id="tucorreo" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="tuinstagram">Tu instagram:</label>
+                <input type="text" id="tuinstagram" class="input-padron" required placeholder="@usuario">
+
+                <label for="mensaje"> Escríbenos algún dato interesante sobre tu michi: </label>
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required placeholder="Mi gato es..."></textarea>
+
+                
+
+                <fieldset>
+                    <legend class="test" id="test">¿Deseas que publiquemos a tu michi?:</legend>
+                    
+                    <label for="radio-si"><input type="radio" name="contacto" value="si" id="radio-si" checked required> Si </label>
+                    
+                    <label for="radio-no"> <input type="radio" name="contacto" value="no" id="radio-No" required>No </label>
+                    
+                </fieldset>
+
+                <fieldset>
+                    <legend>¿En qué red social quieres que publiquemos a tu michi?</legend>
+
+                    <select required>
+                        <option> Facebook </option>
+                        <option> Instagram </option>
+                        <option> Wordpress </option>
+                        <option> Tik tok </option>
+                        <option> YouTube </option>
+                        <option> Todas! </option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox"><input type="checkbox" checked>¿Deseas recibir actualizaciones de Ruso Miguel, el gato?</label>
+                    
+                
+                <input type="submit" value="Enviar datos!" class="enviar">
+            
+            </form>
+        
+                <p>¿Qué días publicaremos a tu michi?</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>                    
+                        <th>Hora</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Sábados</td>                    
+                        <td>6pm</td>
+                    </tr>
+                    <tr>
+                        <td>Miércoles</td>                    
+                        <td>8am</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </main>
+
+        <footer>
+            <img src="paws.png" alt="Patita de ruso">
+            <p class="copyright"> &copy Copyright Adriana Del Valle - 2023</p>
+        </footer>
+    </body>
+
+</html>
